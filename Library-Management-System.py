@@ -953,7 +953,7 @@ def library_management(record_dict, student_dict, duplicate_dict, author_dict):
                     case 2: 
                         two = condition_2(record_dict, duplicate_dict, author_dict)
                         if two == 0:
-                            print("\nProgram Stoped\n")
+                            print("\nProgram Stopped\n")
                             return
                         else:
                             continue
@@ -961,7 +961,7 @@ def library_management(record_dict, student_dict, duplicate_dict, author_dict):
                     case 3: 
                         three = condition_3(record_dict, student_dict, duplicate_dict, author_dict)
                         if three == 0:
-                            print("\nProgram Stoped\n")
+                            print("\nProgram Stopped\n")
                             return
                         else:
                             continue
@@ -969,7 +969,7 @@ def library_management(record_dict, student_dict, duplicate_dict, author_dict):
                     case 4: 
                         four = condition_4(record_dict, student_dict, duplicate_dict, author_dict)
                         if four == 0:
-                            print("\nProgram Stoped\n")
+                            print("\nProgram Stopped\n")
                             return
                         else:
                             continue
@@ -977,7 +977,7 @@ def library_management(record_dict, student_dict, duplicate_dict, author_dict):
                     case 5: 
                         five = condition_5(record_dict, student_dict, duplicate_dict, author_dict)
                         if five == 0:
-                            print("\nProgram Stoped\nGood Bye!!")
+                            print("\nProgram Stopped\nGood Bye!!")
                             return
                         else:
                             continue
@@ -987,7 +987,7 @@ def library_management(record_dict, student_dict, duplicate_dict, author_dict):
             if proceed:
                 continue
             else:
-                print("\nProgram Stoped because admin can't remeber the password\n")
+                print("\nProgram Stopped because admin can't remember the password\n")
                 return
     
 library_management(library, student, library_rec, author)
